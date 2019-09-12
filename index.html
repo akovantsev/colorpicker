@@ -110,5 +110,12 @@
             <div id="log" class="row"></div>
         </div>
     </div>
+    <script>
+        let init = function () {
+            document.getElementById("rmin").focus();
+            document.getElementById("form").submit(); // send to '?#'
+        };
+        window.addEventListener('load', init);
+    </script>
 </body>
 </html>
